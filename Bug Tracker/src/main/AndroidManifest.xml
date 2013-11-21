@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.telerik.bugtracker"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bug_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.orm.SugarApp">
+        <activity
+            android:name="com.telerik.bugtracker.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.telerik.bugtracker.NewActivity"
+            android:label="" />
+
+        <activity
+            android:name="com.telerik.bugtracker.EditActivity"
+            android:label="" />
+
+        <activity
+            android:name="com.telerik.bugtracker.StatisticsActivity"
+            android:label="@string/title_activity_statistics"
+            android:parentActivityName="com.telerik.bugtracker.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.telerik.bugtracker.MainActivity" />
+        </activity>
+        <!--Data base-->
+        <meta-data
+            android:name="DATABASE"
+            android:value="bug_tracker.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="2" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+    </application>
+
+</manifest>

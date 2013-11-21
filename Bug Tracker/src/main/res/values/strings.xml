@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BugTracker</string>
+    <string name="title_section1">Done</string>
+    <string name="title_section2">In progress</string>
+    <string name="title_section3">Not done</string>
+    <string name="action_statistics">Statistics</string>
+    <string name="action_search">Search</string>
+    <string name="action_add">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">Done</string>
+    <string name="title_activity_new">New</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_statistics">Statistics</string>
+    <string name="text_title">Title</string>
+    <string name="text_number">#123</string>
+    <string name="status_prompt">STATUS</string>
+    <string name="priority_prompt">PRIORITY</string>
+    <string name="when_prompt">WHEN</string>
+    <string name="text_description">Description</string>
+    <string name="text_bugs_by_status">BUGS BY STATUS</string>
+    <string name="text_trending_by_status">TRENDING BY STATUS</string>
+    <string name="text_bugs_by_priority">BUGS BY PRIORITY</string>
+
+
+</resources>
