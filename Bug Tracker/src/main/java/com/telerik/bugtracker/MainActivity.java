@@ -186,6 +186,4 @@ public class MainActivity extends ActionBarActivity implements ActionBar.OnNavig
             return rootView;
         }
     }
-
-
 }
